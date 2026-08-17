@@ -55,8 +55,9 @@ export function SignInCard() {
             className="flex items-center gap-2.5 text-sm font-medium"
           >
             <span
-              className={`grid h-5 w-5 shrink-0 place-items-center rounded-md border-2 transition-colors ${
-                remember ? "gradient-primary border-transparent" : "border-lilac"
+              className={`grid h-5 w-5 shrink-0 place-items-center rounded-[6px] border-2 transition-colors ${
+                remember ? "gradient-primary border-transparent" : "border-primary/40"
+
               }`}
             >
               {remember && (

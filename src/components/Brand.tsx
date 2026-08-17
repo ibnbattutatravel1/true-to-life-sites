@@ -9,10 +9,11 @@ export function BrandMark({ compact = false }: { compact?: boolean }) {
       <img
         src={logo}
         alt="Rafiq Workplace logo"
-        width={512}
-        height={512}
-        className="h-11 w-11 shrink-0 rounded-2xl object-cover shadow-button sm:h-14 sm:w-14"
+        width={816}
+        height={816}
+        className="h-11 w-11 shrink-0 object-contain sm:h-14 sm:w-14"
       />
+
       <span className="min-w-0">
         <span className="block truncate text-lg font-extrabold sm:text-2xl">
           Rafiq Workplace
