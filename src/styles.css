@@ -136,13 +136,14 @@
 @utility glass-dark {
   background: linear-gradient(
     140deg,
-    color-mix(in oklab, var(--primary) 30%, transparent),
-    color-mix(in oklab, black 24%, transparent)
+    color-mix(in oklab, var(--primary) 55%, transparent),
+    color-mix(in oklab, black 55%, transparent)
   );
   backdrop-filter: blur(24px) saturate(140%);
   border: 1px solid color-mix(in oklab, white 24%, transparent);
   box-shadow: var(--shadow-glass);
 }
+
 
 @utility gradient-primary {
   background-image: var(--gradient-primary);

@@ -57,8 +57,8 @@ export function SignInCard() {
             <span
               className={`grid h-5 w-5 shrink-0 place-items-center rounded-[6px] border-2 transition-colors ${
                 remember ? "gradient-primary border-transparent" : "border-primary/40"
-
               }`}
+
             >
               {remember && (
                 <svg viewBox="0 0 20 20" className="h-3 w-3 fill-primary-foreground">
